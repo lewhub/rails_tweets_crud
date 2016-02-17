@@ -1,4 +1,5 @@
 <h1>Individual Tweet Page</h1>
 <h2><%= @tweet.title %></h2>
 <p><%= @tweet.body %></p>
+<%= link_to 'Edit Tweet', tweet_edit_path %>
 <%= link_to 'Delete Tweet', tweet_destroy_path, method: :delete %>

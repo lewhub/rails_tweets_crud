@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Tweet.create({title: "Lorem Ipsum", body: "Dolor Sit Amet"})
+Tweet.create({title: "Hello World", body: "How you be? #kanye"})
+Tweet.create({title: "WDI Rocks", body: "Don't forget to change your socks!"})
